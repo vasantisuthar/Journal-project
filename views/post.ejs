@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Post</title>
+</head>
+<body>
+    <div class="container">
+    <p class="display-6"><%=title%></p>
+    <small class="text-muted"><%=day%></small><br>
+        <a href="/blogs"><button class="btn btn-outline-success">All Blogs</button></a>
+
+        <form action="/edit" method="post" class="d-inline">
+            <a href="/edit">
+            <button class="btn btn-outline-info">Edit</button>
+            <input type="hidden" value="<%=title%>" name="title">
+            <input type="hidden" value="<%=id%>" name="blog">
+            </a>
+        </form>
+        <form action="/delete" method="post" class="d-inline">
+            <button type="submit" class="btn btn-outline-danger">Delete</button>
+            <input type="hidden" value="<%=id%>" name="blog">
+        </form>
+        <p class="lead">
+              <%=post%>
+        </p>
+     </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

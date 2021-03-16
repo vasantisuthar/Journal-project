@@ -1,0 +1,77 @@
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.header-section .headerMain{
+    color:#008b8b;
+    margin: 8px 0 0px 70px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.navbar-brand{
+    margin-left: 50px;
+    font-size: larger;
+}
+
+li{
+    color:#f4d160;
+}
+.header-section .h3{
+    font-size:20px;
+    cursor: pointer;
+    margin:10px 20px 0 50px;
+}
+.left-section{
+    display: flex;
+    margin:10px 50px 0 20px;
+}
+.left-section .h4{
+    font-size: 20px;
+    padding:0 8px 0 10px;
+}
+#about-section{
+   margin-right: 90px;
+}
+.featurette-heading{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 400;
+    line-height: 1.2;
+  /* rtl:remove; */
+  letter-spacing: -.05rem;
+}
+.container{
+    margin-top: 20px;
+}
+.container .btn{
+    margin-top: 12px;
+}
+
+.d-flex{
+    margin-right: 60px;
+}
+.alink{
+    margin-left: 90px;
+}
+@media (max-width: 1076px){
+    .blogImg{
+        height: auto;
+        width: 400px;
+    }
+   .featurette-heading{
+       font-size: 28px;
+   }
+   .header-section{
+       justify-items: center;
+   }
+   ul li{
+       margin-left: 50px;
+   }
+   .alink{
+       margin-left: 5px;
+   }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "journal-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vasanti",
+  "license": "ISC",
+  "dependencies": {
+    "@editorjs/editorjs": "^2.19.1",
+    "body-parser": "^1.19.0",
+    "bootstrap-icons": "^1.4.0",
+    "connect-mongodb-session": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "froala-editor": "^3.2.6-1",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.7",
+    "mongoose-findorcreate": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "socket.io": "^3.1.2"
+  }
+}
